@@ -16,7 +16,9 @@ Salma Tanner
 
 ### 1.1 Ihr Projekt
 
-✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
+
+Ich programmiere ein Verschlüsselungsprogramm , bei welchem man zwischen Monoalphabetisches Substitutionsverfahren, Vignere-Verfahren, ROT13 wählen kann, um seine Nachricht zu verschlüsseln. 
+
 
 ✍️ Erklären Sie genauer in 50 bis 100 Wörtern, was genau Sie in diesem Projekt erreichen möchten, und was Sie dabei zu lernen hoffen.
 
