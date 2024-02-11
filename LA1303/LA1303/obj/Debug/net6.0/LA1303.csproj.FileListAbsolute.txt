@@ -1,0 +1,15 @@
+C:\Users\A_119905\Documents\Visual Studios\LA1303\LA1303\bin\Debug\net6.0\LA1303.exe
+C:\Users\A_119905\Documents\Visual Studios\LA1303\LA1303\bin\Debug\net6.0\LA1303.deps.json
+C:\Users\A_119905\Documents\Visual Studios\LA1303\LA1303\bin\Debug\net6.0\LA1303.runtimeconfig.json
+C:\Users\A_119905\Documents\Visual Studios\LA1303\LA1303\bin\Debug\net6.0\LA1303.dll
+C:\Users\A_119905\Documents\Visual Studios\LA1303\LA1303\bin\Debug\net6.0\LA1303.pdb
+C:\Users\A_119905\Documents\Visual Studios\LA1303\LA1303\obj\Debug\net6.0\LA1303.csproj.AssemblyReference.cache
+C:\Users\A_119905\Documents\Visual Studios\LA1303\LA1303\obj\Debug\net6.0\LA1303.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\A_119905\Documents\Visual Studios\LA1303\LA1303\obj\Debug\net6.0\LA1303.AssemblyInfoInputs.cache
+C:\Users\A_119905\Documents\Visual Studios\LA1303\LA1303\obj\Debug\net6.0\LA1303.AssemblyInfo.cs
+C:\Users\A_119905\Documents\Visual Studios\LA1303\LA1303\obj\Debug\net6.0\LA1303.csproj.CoreCompileInputs.cache
+C:\Users\A_119905\Documents\Visual Studios\LA1303\LA1303\obj\Debug\net6.0\LA1303.dll
+C:\Users\A_119905\Documents\Visual Studios\LA1303\LA1303\obj\Debug\net6.0\refint\LA1303.dll
+C:\Users\A_119905\Documents\Visual Studios\LA1303\LA1303\obj\Debug\net6.0\LA1303.pdb
+C:\Users\A_119905\Documents\Visual Studios\LA1303\LA1303\obj\Debug\net6.0\LA1303.genruntimeconfig.cache
+C:\Users\A_119905\Documents\Visual Studios\LA1303\LA1303\obj\Debug\net6.0\ref\LA1303.dll
