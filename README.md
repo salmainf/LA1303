@@ -25,25 +25,38 @@ Ich habe mich dazu erntschieden die Chiffre-Verschlüsselungsverfahren genauer a
 
 ### 1.2 User Stories
 
-| US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
+| US-№ | Typ |  Verbindlichkeit | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+|1|Funktional|Muss|Als ein User möchte ich aus drei Verfahren auswählen können, damit ich die Zusammensetzung des Schlüssels selber bestimmen kann|
+|2|Funktional|Muss|ALs ein User möchte ich, dass ich beliebig lange Botschaften in der Applikation ver-/entschlüsseln kann, damit ich diese als Geheimtext verarbeiten kann.|
+|3|Funktional|Muss|ALs ein User möchte ich, dass ich den Schlüssel selber bestimmen können, damit ich meine Botschaften ent- und Verschlüsseln kann.|
+|4|Funktional|Muss|Als ein User möchte ich meine Ver- und Entschlüsseln können, damit ich Geheime Botschaften versenden/erhalten kann.|
+|5|Funktional|Muss|Als ein User möchte ich, dass ich informiert werde, in welchem Format der Schlüssel sein sollte, damit ich die Logik hinter dem Verfahren verstehe.|
+|6|Funktional|Muss|Als ein User möchte ich eine Fehlermeldung erhalten, sobald ich etwas Inkorrektes eingegeben habe, damit ich meine Eingabe korrigieren kann.|
+|7|Funktional|Muss|Als ein User möchte ich, dass ich am Ende die Möglichkeit habe, nochmals eine Botschaft zu ent-/verschlüsseln.|
+|8|Qualität|Kann|Als ein Entwickler möchte ich, dass die Farbe der Konsole wechselt, sobald ein Verfahren ausgewählt wurde.|
 
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 1.1  |  Konsole startet, Verahren sind aufgezählt |1|Sie haben sich für die Vigenere-Verschlüsselung entschieden!|
+| 2.1  |  Konsole läuft, Schlüssel wurde festgelegt| MeineGeheimBotschaft         |    MetnwGphwixBgtdczaqt               |
+| 3.1  |  Konsole läuft, Methode wurde ausgewählt            | MeinSchluessel        |   Geben Sie Ihre Botschaft ein                |
+| 4.1  |   Konsole läuft, Verfahren wurde gewählt           |  V       |   Geben Sie einen Schlüssel ein (beliebig lange Buchstaben-Abfolge):              |
+| 5.1  |    Konsole läuft, Verfahren wurde gewählt  | V        |    Geben Sie einen Schlüssel ein (Alphabet in beliebiger Reihenfolge)               |
+| 6.1  |    Konsole läuft, warten auf Benutzereingabe         |  1e       |   Ungültige Eingabe! Geben Sie Ihre Wahl richtig an:                |
+| 7.1  |  Konsole läuft, Geheimtext wurde ausgegeben, warten auf Benutzereingabe      |   Ja      |  *Wiederholen der Applikation                 |
+| 8.1  |  Konsole läuft, warten auf Benutzereingabe|  3       |  *Schrift wird Rot                 |
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
-### 1.4 Diagramme
 
-✍️Fügen Sie hier ein Use Case-Diagramm mit mindestens 3 Anwendungsfällen ein; und eine Skizze davon, wie Ihre Netzseite aussehen sollte.
+
+
+
+
+
 
 ## 2 Planen
 
