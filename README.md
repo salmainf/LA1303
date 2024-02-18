@@ -8,19 +8,20 @@ Salma Tanner
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+|    12.01.2024   | 0.0.1   | Informieren über das Projekt, Ideensuche |
+|   19.01.2024    | 0.0.2    |  Planen der Arbeitspackete, Zeitplan erstellen, Projektidee festigen                                                  |
+|   26.01.2024    | 0.0.3   |  Beginn mit Implementation des Projektes, abarbeiten der Arbeitspackete |
+|   02.02.2024    | 0.0.4   | Abarbeiten der fehlenden Arbeitspackete   |
+|   23.02.2024    | 0.0.5  |  Abschliessen der Implementation, Dokumentation und Erstellen des Portfolioeintrags.  |
 
 ## 1 Informieren
 
 ### 1.1 Ihr Projekt
 
 
-Ich programmiere ein Verschlüsselungsprogramm , bei welchem man zwischen Monoalphabetisches Substitutionsverfahren, Vignere-Verfahren, ROT13 wählen kann, um seine Nachricht zu verschlüsseln. 
+Ich programmiere ein Verschlüsselungsprogramm , bei welchem man zwischen dem Monoalphabetisches Substitutionsverfahren, Vignere-Verfahren, ROT13 wählen kann, um seine Nachricht zu verschlüsseln. 
 
-
-✍️ Erklären Sie genauer in 50 bis 100 Wörtern, was genau Sie in diesem Projekt erreichen möchten, und was Sie dabei zu lernen hoffen.
+Ich habe mich dazu erntschieden die Chiffre-Verschlüsselungsverfahren genauer anzuschauen und habe mich somit für die obigen drei Verfahren entschieden. Ich erhoffe mir das Erlernen von standartmässiger Implementation eines Chiffre-Verschlüsselungsverfahren, zu vertsehen wie das Grundgerüst einer solchen Applikation aussehen kann und allenfalls ein Muster bei den drei Verfahren zu erkennen. Meine Applikation werde ich in Visual Studio in C# implementieren.
 
 ### 1.2 User Stories
 
