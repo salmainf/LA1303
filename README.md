@@ -60,39 +60,55 @@ Ich habe mich dazu erntschieden die Chiffre-Verschlüsselungsverfahren genauer a
 
 ## 2 Planen
 
-| AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
-| ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| AP-№ | Frist | Zuständig | Beschreibung | 
+| ---- | ----- | --------- | ------------ |               
+| 1.A  |   26.01.2024     | Salma Tanner          |     Implementation der Benutzereingaben(Auswahl des Verfahrens, der Methode, EIngabe des Schlüssels)       |               
+| 2.A  |   26.01.2024    |Salma Tanner           |   Implementation der Vigenere Entschlüsselungsmethode           |               
+| 2.B  |   26.01.2024    | Salma Tanner          |   Implementation der Vigenere Verschlüsselungsmethode           |               
+| 3.A  |   26.01.2024   | Salma Tanner          |       Implementation der Substitutions Entschlüsselungsmethode                     |               
+| 3.B  |    26.01.2024   |Salma Tanner           |   Implementation der Substitutions Verschlüsselungsmethode           |               
+| 4.A  |    02.02.2024   |Salma Tanner           |          Implementation der ROT13 Entschlüsselungsmethode                  |               
+| 4.B  |    02.02.2024   |Salma Tanner           |    Implementation der ROT13 Verschlüsselungsmethode          |  
+| 5.A  |    02.02.2024   |Salma Tanner           |    Implementation der Farbwechsel der Konsole nach Auswahl des Verfahrens          |     
+| 6.A  |    02.02.2024   |Salma Tanner           |    Verbinden der einzelnen, zusammenarbeitenden Klassen und Methoden        |    
+| 7.A  |    02.02.2024   |Salma Tanner           |    Einbauen von Fehlermeldungen im gesamten Code          |     
 
-Total: 
-
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
-
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Ich habe mich dazu entschieden immer das selbe Muster sozusagen bei der Implementation der Methoden zu verwenden. Das ganze geschieht durch Wiederholungen und Verschiebungen der Schlüssel und Botschafts Variablen.
 
 ## 4 Realisieren
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| 1.A  |  26.01.2024      |  Salma Tanner         |  60min             |      60min             |
+| 2.A  |  26.01.2024      |   Salma Tanner         |   120min            |      150min             |
+| 2.B  |  26.01.2024      |  Salma Tanner          |    120min           |     120min              |
+| 3.A  | 26.01.2024       |  Salma Tanner          |   120min            |    90min               |
+| 3.B  | 26.01.2024       |  Salma Tanner          |    120min           |      90min             |
+| 4.A  |  02.02.2024       | Salma Tanner           |     120min          |     90min              |
+| 4.B  |  02.02.2024       | Salma Tanner           |     120min          |     90min              |
+| 5.A  |  02.02.2024       |  Salma Tanner          |     10min          |     10min              |
+| 6.A  |   02.02.2024      |  Salma Tanner          |     30min          |      30min             |
+| 7.A  |   02.02.2024      |  Salma Tanner          |     30min          |     30min              |
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
+
+
 
 ## 5 Kontrollieren
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  | 23.02.2024      |  Funktioniert        | Salma Tanner       |
+| 2.1  | 23.02.2024      |   Funktioniert        | Salma Tanner        |
+| 3.1  | 23.02.2024      |   Funktioniert        | Salma Tanner        |
+| 4.1  | 23.02.2024      |   Funktioniert        | Salma Tanner        |
+| 5.1  | 23.02.2024      |   Funktioniert        | Salma Tanner        |
+| 6.1  | 23.02.2024      |   Funktioniert        | Salma Tanner        |
+| 7.1  | 23.02.2024      |   Funktioniert        | Salma Tanner        |
+| 8.1  | 23.02.2024      |   Funktioniert        | Salma Tanner        |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Die Applikation funktioniert so, wie sie sollte. Fehlermeldungen werden ausgegeben, man ist in der Lage aus drei Verfahren zu wählen, aus einer der beiden Methoden (Ver-/Entschlüsseln) und die Konsole wechselt wie gedacht, die Farbe, sobald man eines der Verfahren ausgewählt hat. Der Schlüssel kann man ausser beim ROT13 Verfahren selbst wählen, die Botschaft darf beliebig lang und ebenfalls selbstgewählt sein. Ergebnis ist zufriedenstellend.
 
-## 6 Auswerten
 
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
